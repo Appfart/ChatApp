@@ -1,0 +1,16 @@
+[25-Oct-2024 01:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/yellow/chat/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/yellow/chat/bootstrap/app.php on line 14
+[25-Oct-2024 01:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/yellow/chat/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/yellow/chat/bootstrap/app.php on line 14
+[25-Oct-2024 01:56:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/yellow/chat/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/yellow/chat/bootstrap/app.php on line 14
+[25-Oct-2024 01:56:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/yellow/chat/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/yellow/chat/bootstrap/app.php on line 14

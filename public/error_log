@@ -1,0 +1,1055 @@
+[21-Nov-2024 03:51:52 UTC] PHP Fatal error:  Cannot redeclare generateRandomPhoneNumber() (previously declared in /home/yellow/chat/storage/framework/views/f9beddb8f58183c0cc383e060fb64a72f38911d4.php:53) in /home/yellow/chat/storage/framework/views/f9beddb8f58183c0cc383e060fb64a72f38911d4.php on line 51
+[21-Nov-2024 03:52:06 UTC] PHP Fatal error:  Cannot redeclare generateRandomPhoneNumber() (previously declared in /home/yellow/chat/storage/framework/views/f9beddb8f58183c0cc383e060fb64a72f38911d4.php:53) in /home/yellow/chat/storage/framework/views/f9beddb8f58183c0cc383e060fb64a72f38911d4.php on line 51
+[23-Nov-2024 08:43:10 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FriendController::updateFriendStatus() in /home/yellow/chat/app/Http/Controllers/FriendController.php on line 197
+[23-Nov-2024 08:43:19 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FriendController::updateFriendStatus() in /home/yellow/chat/app/Http/Controllers/FriendController.php on line 197
+[23-Nov-2024 08:44:01 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FriendController::updateFriendStatus() in /home/yellow/chat/app/Http/Controllers/FriendController.php on line 197
+[23-Nov-2024 08:44:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\FriendController::updateFriendStatus() in /home/yellow/chat/app/Http/Controllers/FriendController.php on line 197
+[27-Nov-2024 22:31:30 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/LobbyController.php on line 9
+[05-Dec-2024 08:22:26 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2101248 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[05-Dec-2024 08:25:04 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2101248 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[08-Dec-2024 10:03:12 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot redeclare App\Http\Controllers\RobotController::sendGroupFile() in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 464
+[09-Dec-2024 00:03:52 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1175552 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:04:08 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1159168 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:08:33 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1175552 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:09:31 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1175552 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:11:58 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1155072 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:12:44 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1155072 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:14:57 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1155072 bytes) in /home/yellow/chat/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php on line 97
+[09-Dec-2024 00:18:58 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1093632 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 63
+[09-Dec-2024 00:19:13 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1093632 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 63
+[09-Dec-2024 09:42:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:42:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:42:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:42:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:42:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:14 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:48 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:58 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:43:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:02 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:06 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:38 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:44:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:06 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:16 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:18 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:26 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:28 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:34 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:38 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:56 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:45:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:38 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:46:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:08 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:36 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:52 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:47:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:06 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:48:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:28 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:49:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:16 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:50:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:16 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 17
+[09-Dec-2024 09:51:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:58 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:58 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:51:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:02 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:16 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:18 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:30 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:40 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:50 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:52:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:53:00 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:53:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 09:53:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Carbon\Carbon as Carbon because the name is already in use in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 19
+[09-Dec-2024 10:50:18 Asia/Kuala_Lumpur] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/yellow/chat/app/Events/GroupMessageSent.php on line 4
+[09-Dec-2024 10:50:35 Asia/Kuala_Lumpur] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/yellow/chat/app/Events/GroupMessageSent.php on line 4
+[09-Dec-2024 11:41:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:41:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:41:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:41:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:41:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:42:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:42:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:42:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:42:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:42:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:43:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:43:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:43:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:43:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:43:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:44:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:44:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:44:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:44:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:44:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:45:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:45:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:45:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:45:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:45:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:46:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:46:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:46:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:46:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:46:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:47:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:47:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:47:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:47:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:47:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:48:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:48:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:48:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:48:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:48:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:49:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:49:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:49:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:49:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:49:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:50:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:50:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:50:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:50:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:50:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:51:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:51:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:51:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:51:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:51:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:52:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:52:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:52:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:52:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:52:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:53:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:53:44 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:53:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:53:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:53:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:54:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:54:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:54:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:54:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:54:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:55:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:55:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:55:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:55:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:55:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:56:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:56:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:56:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:56:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:56:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:57:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:57:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:57:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:57:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:57:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:58:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:58:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:58:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:58:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:58:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:59:46 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:59:46 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:59:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:59:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 11:59:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:00:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:00:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:00:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:00:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:00:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:01:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:01:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:01:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:01:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:01:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:02:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:02:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:02:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:03:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:03:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:03:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:04:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:04:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:04:54 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:05:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:05:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:05:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:06:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:06:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:06:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:06:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:06:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:07:14 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:07:14 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:07:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:07:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:07:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:10 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:08:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:22 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:09:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:10:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 12:10:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 226
+[09-Dec-2024 13:50:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use Illuminate\Broadcasting\Channel as Channel because the name is already in use in /home/yellow/chat/app/Events/MessageSent.php on line 8
+[09-Dec-2024 14:05:02 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1236992 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[22-Dec-2024 18:32:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:32:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:33:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:34:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:35:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:36:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:37:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:38:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:26 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:26 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:32 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:32 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:32 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:32 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:39:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:40:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:24 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:41:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:11 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:13 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:15 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:17 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:19 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:21 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:23 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:27 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:29 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:31 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:33 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:35 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:37 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:39 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:41 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:43 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:45 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:47 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:49 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:51 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:53 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:55 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:57 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:42:59 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:43:01 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:43:03 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:43:05 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:43:07 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[22-Dec-2024 18:43:09 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot use try without catch or finally in /home/yellow/chat/app/Http/Controllers/ChatController.php on line 1019
+[23-Dec-2024 18:54:49 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:49 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:50 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:50 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:50 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:51 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:52 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:54 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:55 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:56 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:56 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:58 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:54:59 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:00 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:00 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:01 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:03 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:04 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[23-Dec-2024 18:55:05 Asia/Kuala_Lumpur] PHP Fatal error:  Trait "App\Http\Controllers\Illuminate\Support\Facades\Log" not found in /home/yellow/chat/app/Http/Controllers/RobotController.php on line 21
+[28-Dec-2024 12:35:20 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CustomerServiceController::storeMessage() in /home/yellow/chat/app/Http/Controllers/CustomerServiceController.php on line 117
+[02-Jan-2025 17:13:25 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CustomerServiceController::apiStoreMessage() in /home/yellow/chat/app/Http/Controllers/CustomerServiceController.php on line 321
+[02-Jan-2025 17:14:16 Asia/Kuala_Lumpur] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CustomerServiceController::apiStoreMessage() in /home/yellow/chat/app/Http/Controllers/CustomerServiceController.php on line 321
+[03-Jan-2025 09:19:42 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 266240 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 87
+[03-Jan-2025 09:39:02 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 110592 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 87
+[04-Jan-2025 10:16:50 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:18:20 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1331200 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:19:11 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:20:39 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:22:10 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:25:12 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1327104 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:25:46 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 10:26:01 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1335296 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 17:18:52 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1134592 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 17:19:40 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1134592 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[04-Jan-2025 17:19:49 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1134592 bytes) in /home/yellow/chat/vendor/spatie/ignition/resources/views/errorPage.php on line 61
+[05-Jan-2025 14:09:28 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 327680 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 116
+[05-Jan-2025 14:17:06 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 327680 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 116
+[05-Jan-2025 14:27:09 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 327680 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 116
+[05-Jan-2025 14:34:41 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 327680 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 116
+[05-Jan-2025 16:27:10 Asia/Kuala_Lumpur] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 327680 bytes) in /home/yellow/chat/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 116

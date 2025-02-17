@@ -1,0 +1,189 @@
+/* /home/yellow/chat/resources/scss/custom/chat-custom.scss */
+
+/* Ensure that the chat-conversation-box-scroll uses flex layout */
+.chat-conversation-box-scroll {
+    height: 100%; /* Ensure it takes full height of the parent */
+    overflow-y: auto;
+    padding-bottom: 60px; /* Adjust this value as needed */
+}
+
+/* Ensure that the parent containers allow the child to grow */
+.chat-conversation-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden; /* Prevent inner scroll from causing outer scroll */
+}
+
+.chat-box-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-conversation-box-scroll {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+/* Optional: Ensure the chat-box itself takes the full available height */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Adjust as per your layout needs */
+}
+
+/* Base bubble styling */
+.chat-conversation-box-scroll .bubble {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+    word-wrap: break-word;
+    background-color: white; /* Set background color to white */
+    /* Optional: Add box-shadow for better visibility */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Sent messages (robot client) */
+.chat-conversation-box-scroll .bubble.me {
+    align-self: flex-end; /* Align sent messages to the right */
+    background-color: white !important; /* Ensure background is white */
+}
+
+/* Received messages (other user) */
+.chat-conversation-box-scroll .bubble.you {
+    align-self: flex-start; /* Align received messages to the left */
+    background-color: white !important; /* Ensure background is white */
+}
+
+/* Timestamp styling */
+.chat-conversation-box-scroll .bubble .timestamp {
+    font-size: 10px;
+    color: grey;
+    margin-top: 5px;
+    text-align: right;
+    display: block; /* Ensure it occupies its own line */
+}
+
+/* Optional: Differentiate sent and received messages slightly */
+.chat-conversation-box-scroll .bubble.me p {
+    /* You can add styles specific to sent messages here */
+}
+
+.chat-conversation-box-scroll .bubble.you p {
+    /* You can add styles specific to received messages here */
+}
+
+.table {
+    white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    max-height: 400px; /* Set a maximum height for the scrollable table */
+    max-width: 100%;  /* Optional: Limit the width of the scrollable container */
+}
+
+.chat-footer {
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-top: 1px solid #dee2e6;
+}
+
+.footer-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px; /* Space between elements */
+}
+
+#message-input {
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#send-button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+#send-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.additional-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width:100%;
+}
+
+.icon-button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    color: #495057;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-button:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+/* Remove button default styles */
+.icon-button.btn-link {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.avatar-default {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.announcement-marquee {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.announcement-marquee span {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
