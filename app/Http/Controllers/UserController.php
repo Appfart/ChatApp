@@ -380,6 +380,7 @@ class UserController extends Controller
             'referral_link' => 'nullable|string|max:255',
             'password' => 'nullable|string|confirmed',
             'security_pin' => 'nullable|string',
+            'avatar'    => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:20480',
         ], [
             'name.regex' => '用户名格式无效，只能包含字母和数字。',
             'password.confirmed' => '两次输入的密码不一致。',
@@ -412,6 +413,14 @@ class UserController extends Controller
     
             if ($request->filled('password')) {
                 $updateData['password'] = bcrypt($request->input('password'));
+            }
+            
+            if ($request->hasFile('avatar')) {
+                // Optionally delete the old avatar if you wish:
+                // Storage::disk('public')->delete($user->avatar);
+    
+                $avatarPath = $request->file('avatar')->store('avatars', 'public');
+                $updateData['avatar'] = $avatarPath;
             }
     
             // Only update fields if there is something to update
@@ -561,7 +570,6 @@ class UserController extends Controller
             return back()->withErrors('更新钱包详情时发生错误，请重试。');
         }
     }
-
 
     public function resetPassword($id)
     {

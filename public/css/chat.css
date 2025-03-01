@@ -524,13 +524,12 @@ body.layout-dark .modal-content {
 
 .announcement-marquee {
     background-color: black;
-    color: white;
-    font-size: 14px;
     padding: 5px;
-    text-align: center;
-    white-space: nowrap;
+    color: white;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    bottom: 10%;
+    width: 99%;
 }
 
 .announcement-marquee span {
@@ -730,7 +729,10 @@ body.layout-dark .chat-system .user-list-box .search,
 @media (max-width: 1199px) {
     body.layout-dark .chat-system .chat-box,
     .chat-system .chat-box {
-        width: 100%;
+        width: 70%;
+        max-width: 100%;
+        margin: 0 auto;
+        left: 0;
     }
 }
 

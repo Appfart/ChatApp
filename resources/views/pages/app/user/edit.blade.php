@@ -28,11 +28,24 @@
             @endif
 
             <!-- User Details Form -->
-            <form method="POST" action="{{ route('user.updateUser', $user->id) }}">
+            <form method="POST" action="{{ route('user.updateUser', $user->id) }}" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
                 <h4>用户详情</h4>
+                
+                <!-- Profile Picture Section -->
+                <div class="mb-3">
+                     @if ($user->avatar)
+                        <div class="mb-2 mt-3">
+                            <img src="{{ asset('storage/' . $user->avatar) }}" alt="Profile Picture" width="150" height="150" class="rounded-circle">
+                        </div>
+                    @endif
+                    <label for="avatar" class="form-label mt-3">个人头像</label>
+                    <input type="file" name="avatar" class="form-control">
+                   
+                </div>
+
 
                 <!-- 第一组 -->
                 <div class="row g-3">

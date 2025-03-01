@@ -23,7 +23,7 @@ class RecordLastOnline
             );
             
         } else {
-            Log::info('No authenticated user.');
+            //Log::info('No authenticated user.');
         }
 
         return $response;

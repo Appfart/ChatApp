@@ -96,21 +96,23 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
               </div>
               <div class="modal-body">
-                <table class="table table-striped" id="detailedMessagesTable">
+                <div class="table-responsive" style="max-height: 700px; overflow-y: auto;">
+                  <table class="table table-striped" id="detailedMessagesTable">
                     <thead>
-                        <tr>
-                            <th>消息ID</th>
-                            <th>发送者</th>
-                            <th>消息内容</th>
-                            <th>图片</th>
-                            <th>音频</th>
-                            <th>文档</th>
-                            <th>创建时间</th>
-                            <th>操作</th>
-                        </tr>
+                      <tr>
+                        <th>消息ID</th>
+                        <th>发送者</th>
+                        <th>消息内容</th>
+                        <th>图片</th>
+                        <th>音频</th>
+                        <th>文档</th>
+                        <th>创建时间</th>
+                        <th>操作</th>
+                      </tr>
                     </thead>
                     <tbody></tbody>
-                </table>
+                  </table>
+                </div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
@@ -118,6 +120,7 @@
             </div>
           </div>
         </div>
+
     </div>
 
     <x-slot:footerFiles>
@@ -207,7 +210,7 @@
                         { "data": "id" },
                         { "data": "chatname" },
                         { "data": "avatar", "orderable": false, "searchable": false },
-                        { "data": "members_count" },
+                        { "data": "members_count", "searchable": false }, // Disable search for computed column
                         {
                             "data": "created_at",
                             "render": function(data) {
@@ -227,6 +230,7 @@
                     "pageLength": 10,
                     "responsive": true,
                 });
+
 
                 $(document).on('click', '.view-details-btn', function() {
                     const conversationId = $(this).data('conversation-id');

@@ -42,6 +42,8 @@ Route::middleware('auth:sanctum')->group(function () {
     // Messages
     Route::get('/messages/{conversation_id}', [ChatController::class, 'getMessages']);
     Route::post('/flutter/messages', [ChatController::class, 'sendMessageFromFlutter']);
+    
+    Route::get('/messagesb/{conversation_id}', [ChatController::class, 'getMessagesb']);
 });
 
 //Wallet

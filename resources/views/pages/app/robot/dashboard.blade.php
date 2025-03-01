@@ -18,6 +18,9 @@
                 userId: {{ json_encode($user->id) }},
                 impersonationToken: "{{ request()->get('impersonation_token') }}",
                 csrfToken: "{{ csrf_token() }}",
+                appUrl: "{{ config('app.url') }}",
+                pusherKey: "{{ config('broadcasting.connections.pusher.key') }}",
+                pusherCluster: "{{ config('broadcasting.connections.pusher.options.cluster') }}"
             };
         </script>
     </x-slot:headerFiles>
@@ -78,7 +81,7 @@
                                 搜索好友
                             </button>
                         </div>-->
-
+                        
                         <div class="people">
                             @foreach($sortedChats as $chat)
                                 @if($chat['type'] === 'conversation')
@@ -128,23 +131,6 @@
                                                             暂没信息
                                                         @endif
                                                     </div>
-                                                    
-                                                    <!--<div>
-                                                        <span class="last-login badge badge-success">
-                                                            最后活跃: 
-                                                            @if($user->last_login)
-                                                                {{ \Carbon\Carbon::parse($user->last_login)->diffForHumans() }}
-                                                            @else
-                                                                未上线
-                                                            @endif
-                                                        </span>
-                                                    </div>
-                                                    
-                                                    <div class="action-icons d-flex align-items-center gap-2 text-dark">
-                                                        <a href="javascript:void(0)" class="remove-conversation" data-chat-id="{{ $conversation->id }}" data-is-group-chat="0" title="移除对话"> 
-                                                            <i class="fas fa-trash-alt"></i> 
-                                                        </a>
-                                                    </div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -194,33 +180,7 @@
                                                         暂没信息
                                                     @endif
                                                 </div>
-                                                
-                                                <!-- <div class="action-icons d-flex align-items-center gap-2 text-dark" style="margin-top: 10px;">
-                                                    @if(in_array($user->id, $grpchat->admins))
-                                                        <a href="javascript:void(0)" class="open-settings" data-grpchat-id="{{ $grpchat->id }}" title="群组设置">
-                                                            <i class="fas fa-cogs"></i>
-                                                        </a>
-                                                        <a href="javascript:void(0)" class="open-mute-settings" data-grpchat-id="{{ $grpchat->id }}" title="禁言成员">
-                                                            <i class="fas fa-volume-mute"></i>
-                                                        </a>
-                                                    @endif
-                                                    
-                                                    <a href="javascript:void(0)" class="open-member-list" data-grpchat-id="{{ $grpchat->id }}" title="查看成员">
-                                                        <i class="fas fa-users"></i>
-                                                    </a>
-                                                    
-                                                    <a href="javascript:void(0)" class="invite-members" data-grpchat-id="{{ $grpchat->id }}" title="邀请成员">
-                                                        <i class="fas fa-user-plus"></i>
-                                                    </a>
-                                                    
-                                                    @if($user->id !== $grpchat->owner)
-                                                        <a href="javascript:void(0)" class="quit-group" data-grpchat-id="{{ $grpchat->id }}" title="退出群组">
-                                                            <i class="fas fa-sign-out-alt"></i>
-                                                        </a>
-                                                    @endif
-                                                </div> -->
                                             </div>
-
                                         </div>
                                     </div>
                                 @endif
@@ -280,12 +240,12 @@
                         
                         <!-- Updated Chat Footer with Textarea -->
                         <div class="chat-footer">
-                            <div class="announcement-marquee" id="announcement-marquee">
-                                <span>暂无公告</span>
-                            </div>
                             <div id="reply-context-container" style="display: none; background-color: #f1f1f1; padding: 5px; border-left: 3px solid #007bff; margin-bottom: 5px;">
                                 <span id="replying-to">回复: <strong></strong></span>
                                 <button type="button" id="cancel-reply" class="btn btn-sm btn-link">取消</button>
+                            </div>
+                            <div class="announcement-marquee" id="announcement-marquee">
+                                <span>暂无公告</span>
                             </div>
                             <div class="chat-input">
                                 <form id="chat-form" class="chat-form" action="javascript:void(0);">

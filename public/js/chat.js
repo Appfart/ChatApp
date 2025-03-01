@@ -18,14 +18,10 @@ $(document).ready(function () {
     // Initialize Laravel Echo
     window.Echo = new Echo({
         broadcaster: 'pusher',
-        key: 'c6aba6b00c27cb34c21b',
-        cluster: 'ap1',
+        key: window.chatConfig.pusherKey,
+        cluster: window.chatConfig.pusherCluster,
         forceTLS: true,
         encrypted: true,
-        // If using a custom host, port, or scheme, add them here
-        // host: 'your-pusher-host',
-        // port: 443,
-        // scheme: 'https',
     });
 
     // Set up AJAX to include CSRF token
@@ -173,8 +169,7 @@ $(document).ready(function () {
             },
             success: function (response) {
                 console.log("撤回响应:", response);
-                debouncedRefreshChatList();
-    
+
                 // Update recalled message UI
                 const bubbleSelector = `.bubble[data-message-id="${messageId}"]`;
                 const bubbleElement = $(bubbleSelector);
@@ -275,77 +270,15 @@ $(document).ready(function () {
         };
     }
     
-    function refreshChats() {
-        console.log("Debounced Refresh Chats Called");
-        refreshChatList();
-        debouncedRefreshChats();
-    }
+    // Scroll event for lazy loading older messages
+    $('.chat-conversation-box-scroll').on('scroll', debounce(function () {
+        const container = $(this);
+        if (container.scrollTop() === 0 && !isLoadingMessages && !allMessagesLoaded) {
+            fetchMessages(currentConversationId, isGroupChat, false);
+        }
+    }, 200));
     
-    const debouncedRefreshChatList = debounce(refreshChats, 500);
-    
-    function refreshChatList() {
-        console.log("Starting chat list refresh...");
-        $.ajax({
-            url: `/robot/sorted-chats?impersonation_token=${window.chatConfig.impersonationToken}`,
-            type: 'GET',
-            success: function (response) {
-                if (response.sorted_chats && Array.isArray(response.sorted_chats)) {
-                    const sortedChats = response.sorted_chats;
-                    const chatListContainer = $('.people');
-                    const activeChatElement = chatListContainer.find('.person.active');
-                    const activeChatType = activeChatElement.data('chat-type');
-                    const activeChatId = activeChatElement.data('chat-id');
-    
-                    // Detach all chat elements
-                    const detachedChats = {};
-                    chatListContainer.find('.person').each(function () {
-                        const chatType = $(this).data('chat-type');
-                        const chatId = $(this).data('chat-id');
-                        const key = `${chatType}-${chatId}`;
-                        detachedChats[key] = $(this).detach();
-                    });
-    
-                    // Re-append chats in sorted order
-                    sortedChats.forEach(function (chat) {
-                        const key = `${chat.type}-${chat.id}`;
-                        if (detachedChats[key]) {
-                            const $person = detachedChats[key];
-                            
-                            // Use latest_message_content instead of latest_message.message
-                            const previewText = chat.latest_message_content || '有新消息';
-                            const timeText = chat.latest_message 
-                                ? new Date(chat.latest_message.created_at).toLocaleString() 
-                                : '暂无消息';
-                            
-                            $person.find('.user-meta-time').text(timeText);
-                            $person.find('.preview').text(previewText);
-    
-                            const unreadCount = chat.unread_count || 0;
-    
-                            if (unreadCount > 0) {
-                                $person.find('.unread-count').show().text(unreadCount);
-                            } else {
-                                $person.find('.unread-count').hide().text('');
-                            }
-    
-                            chatListContainer.append($person);
-                        }
-                    });
-    
-                    // Re-activate the previously active chat
-                    if (activeChatType && activeChatId) {
-                        chatListContainer.find(`.person[data-chat-type="${activeChatType}"][data-chat-id="${activeChatId}"]`).addClass('active');
-                    }
-                }
-            },
-            error: function (xhr, status, error) {
-                console.error('Failed to refresh chat list:', error);
-            }
-        });
-    }
-
     function debouncedRefreshChats() {
-        console.log("Starting chat order refresh...");
         const impersonationToken = window.chatConfig.impersonationToken;
     
         const activeChatElement = $('.people .person.active');
@@ -467,13 +400,16 @@ $(document).ready(function () {
                 const messagesContainer = $('.chat-conversation-box-scroll');
                 const avatarUrl = `${window.location.origin}/storage/${response.sender_avatar}`;
                 let messageContent = '';
-                
-                const readTimestamp = response.read_timestamp 
-                    ? new Date(response.read_timestamp) 
+        
+                const readTimestamp = response.read_timestamp
+                    ? new Date(response.read_timestamp)
                     : null;
-                    
+        
                 console.log("Read Timestamp:", readTimestamp);
-
+        
+                // Process only the user text: escape HTML and replace newlines with <br>
+                const userText = escapeHTML(response.message || '').replace(/\n/g, '<br>');
+        
                 // Handle different message types
                 if (response.image_url) {
                     const imageUrl = `${window.location.origin}/storage/${response.image_url}`;
@@ -497,14 +433,15 @@ $(document).ready(function () {
                                         data-is-group-chat="${isGroupChat}" 
                                         data-sender-name="${response.sender_name}"></audio>`;
                 } else {
+                    // Use the processed userText here, not the whole HTML string replacement
                     messageContent += `<p class="preserve-whitespace"
                                         data-message-id="${response.id}" 
                                         data-is-group-chat="${isGroupChat}" 
                                         data-sender-name="${response.sender_name}">
-                                            ${escapeHTML(response.message || '')}
+                                            ${userText}
                                         </p>`;
                 }
-                
+        
                 // Optional: Reply context
                 let replyContext = '';
                 if (response.reply_to_id) {
@@ -516,14 +453,14 @@ $(document).ready(function () {
                         </div>
                     `;
                 }
-                
+        
                 let isRead = false;
                 if (readTimestamp) {
                     const messageTime = new Date(response.created_at);
                     isRead = messageTime.getTime() <= readTimestamp.getTime();
                 }
-                
-                // Construct the message HTML
+        
+                // Construct the final message HTML (use messageContent directly)
                 const messageHtml = `
                     <div class="message-container me">
                         <span class="timestamp">${new Date(response.created_at).toLocaleString('en-GB', {
@@ -542,29 +479,29 @@ $(document).ready(function () {
                         </div>
                     </div>
                 `;
-
-            
+        
                 // Append to chat container and scroll to bottom
                 messagesContainer.append(messageHtml);
                 scrollToBottom();
-            
+                debouncedRefreshChats();
+        
                 // Update lastMessageId
                 if (response.id > lastMessageId) {
                     lastMessageId = response.id;
                 }
-            
+        
                 // Clear input and reply context
                 $('#message-input').val('');
                 $('#reply-to-id').val('');
                 $('#replying-to strong').text('');
                 $('#reply-context-container').hide();
             },
-    
+        
             error: function (xhr, status, error) {
                 console.error('服务器问题，请稍后:', error);
-    
+        
                 let errorMessage = '发送消息时出现问题，请稍后再试。';
-    
+        
                 if (xhr.responseJSON) {
                     if (xhr.status === 422) {
                         // Handle Validation Errors
@@ -579,14 +516,15 @@ $(document).ready(function () {
                         errorMessage = `错误: ${escapeHTML(xhr.responseJSON.error)}`;
                     }
                 }
-    
+        
                 // Display the error message using alert
                 alert(errorMessage);
-    
+        
                 // Re-enable the submit button and reset its text
                 $('#send-button').prop('disabled', false).text('发送');
             },
         });
+
     });
 
     $('#message-input').on('keydown', function(event) {
@@ -745,6 +683,8 @@ $(document).ready(function () {
                 if (response.messages.length < messageLimit) {
                     allMessagesLoaded = true;
                 }
+                
+                messageOffset += response.messages.length;
     
                 let previousHeight = initialLoad ? 0 : messagesContainer[0].scrollHeight;
     
@@ -757,12 +697,20 @@ $(document).ready(function () {
                 } else if (isGroupChatFlag) {
                     console.error("response.users is missing or not an array for group chat.");
                 }
-    
+                
+                const baseUrl = window.chatConfig.appUrl + "/storage/";
+                const defaultAvatarUrl = window.chatConfig.appUrl + "/default-avatar.png";
+                const timestampOptions = {
+                    day: '2-digit',
+                    month: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                };
+                
                 response.messages.forEach((message) => {
                     const messageUserId = Number(message.user_id);
                     const messageUsername = message.user.realname !== "none" ? message.user.realname : message.user.name;
-                    const baseUrl = "https://qmxk.cloud/storage/";
-                    const defaultAvatarUrl = "https://qmxk.cloud/default-avatar.png";
+                    
                     const messageUserAvatar = message.user.avatar ? `${baseUrl}${message.user.avatar}` : defaultAvatarUrl;
                     const bubbleClass = messageUserId === userId ? 'me' : 'you';
     
@@ -776,42 +724,30 @@ $(document).ready(function () {
     
                     if (message.image_url) {
                         const imageUrl = `${window.location.origin}/storage/${message.image_url}`;
-                        messageContent += `<img src="${imageUrl}" alt="Image" class="chat-image"
-                                            data-message-id="${message.id}" 
-                                            data-is-group-chat="${isGroupChatFlag}" 
-                                            data-sender-name="${message.user.realname}">`;
+                        messageContent += `<img src="${imageUrl}" alt="图片信息" class="chat-image">`;
                     }
-    
+                    
                     if (message.doc_url) {
                         const docUrl = `${window.location.origin}/storage/${message.doc_url}`;
                         const fileName = extractFileName(message.doc_url);
-                        messageContent += `<a href="${docUrl}" target="_blank" class="chat-document" 
-                                            data-message-id="${message.id}" 
-                                            data-is-group-chat="${isGroupChatFlag}" 
-                                            data-sender-name="${message.user.realname}">
+                        messageContent += `<a href="${docUrl}" target="_blank" class="chat-document">
                                                 <i class="fas fa-file-alt"></i> ${fileName}
                                            </a>`;
                     }
-    
+                    
                     if (message.video_url) {
                         const videoUrl = `${window.location.origin}/storage/${message.video_url}`;
-                        messageContent += `<video controls class="chat-video"
-                                            data-message-id="${message.id}" 
-                                            data-is-group-chat="${isGroupChatFlag}" 
-                                            data-sender-name="${message.user.realname}">
+                        messageContent += `<video controls class="chat-video" preload="none">
                                                 <source src="${videoUrl}" type="video/mp4">
                                                 Your browser does not support the video tag.
-                                            </video>`;
+                                           </video>`;
                     }
-    
+                    
                     if (message.audio_url) {
                         const audioUrl = `${window.location.origin}/storage/${message.audio_url}`;
-                        messageContent += `<audio controls src="${audioUrl}" 
-                                            data-message-id="${message.id}" 
-                                            data-is-group-chat="${isGroupChatFlag}" 
-                                            data-sender-name="${message.user.realname}"></audio>`;
+                        messageContent += `<audio controls src="${audioUrl}" class="chat-audio"></audio>`;
                     }
-    
+
                     if (message.message) {
                         message.tagged_users.forEach(taggedUser => {
                             const tagPattern = new RegExp('@' + taggedUser.name, 'g');
@@ -832,13 +768,7 @@ $(document).ready(function () {
                         `;
                     }
     
-                    // Format timestamp as d/m h:m
-                    const formattedTimestamp = new Date(message.created_at).toLocaleString('en-GB', {
-                        day: '2-digit',
-                        month: '2-digit',
-                        hour: '2-digit',
-                        minute: '2-digit',
-                    }).replace(',', '');
+                    const formattedTimestamp = new Date(message.created_at).toLocaleString('en-GB', timestampOptions).replace(',', '');
                     
                     let isRead = false;
     
@@ -885,6 +815,8 @@ $(document).ready(function () {
                             </div>
                         `;
                         
+                        const formattedMessageContent = messageContent.replace(/\n/g, '<br>');
+                        
                         messageHtml = `
                             <div class="message-container ${bubbleClass}">
                                 <span class="timestamp">${formattedTimestamp}</span>
@@ -895,7 +827,7 @@ $(document).ready(function () {
                                     <div class="bubble" data-message-id="${message.id}" data-is-group-chat="${isGroupChatFlag}" data-sender-name="${message.user.name}">
                                     <div class="sender-name">${message.user.name}</div>
                                         ${replyContext}
-                                        ${messageContent}
+                                        ${formattedMessageContent}
                                         ${bubbleClass === 'me' ? readInfoHtml : ''}
                                     </div>
                                     ${bubbleClass === 'me' 
@@ -911,6 +843,8 @@ $(document).ready(function () {
                             const messageTime = new Date(message.created_at);
                             isRead = messageTime.getTime() <= new Date(response.read_timestamp).getTime();
                         }
+                        
+                        const formattedMessageContent = messageContent.replace(/\n/g, '<br>');
     
                         messageHtml = `
                             <div class="message-container ${bubbleClass}">
@@ -919,13 +853,14 @@ $(document).ready(function () {
                                     ${bubbleClass === 'you' ? `<img class="avatar you" src="${messageUserAvatar}" alt="${messageUsername}'s avatar" />` : ''}
                                     <div class="bubble" data-message-id="${message.id}" data-is-group-chat="${isGroupChatFlag}" data-sender-name="${message.user.name}">
                                         ${replyContext}
-                                        ${messageContent}
+                                        ${formattedMessageContent}
                                     </div>
                                     <div class="read-status ${bubbleClass === 'me' ? (isRead ? 'read' : '') : ''}"></div>
                                     ${bubbleClass === 'me' ? `<img class="avatar me" src="${messageUserAvatar}" alt="${messageUsername}'s avatar" />` : ''}
                                 </div>
                             </div>
                         `;
+
                     }
     
                     // Append or Prepend based on initial load
@@ -934,9 +869,6 @@ $(document).ready(function () {
                     } else {
                         messagesContainer.prepend(messageHtml);
                     }
-    
-                    // Update Chat Header
-                    updateChatHeader(response);
     
                     // Update Remark Button
                     const chatInfo = response.chat_info;
@@ -958,10 +890,10 @@ $(document).ready(function () {
                     scrollToBottom();
                 }
     
-                if (chatId !== currentConversationId) {
-                    console.log("currentConversationId...");
-                    debouncedRefreshChats();
-                }
+                debouncedRefreshChats();
+                
+                // Update Chat Header
+                updateChatHeader(response);
     
                 const personElement = $(`.person[data-chat-type="${chatType}"][data-chat-id="${chatId}"]`);
                 personElement.find('.unread-count').hide().text('');
@@ -1009,16 +941,10 @@ $(document).ready(function () {
         });
     }
     
-    // Scroll event for lazy loading older messages
-    $('.chat-conversation-box-scroll').on('scroll', debounce(function () {
-        const container = $(this);
-        if (container.scrollTop() === 0 && !isLoadingMessages && !allMessagesLoaded) {
-            fetchMessages(currentConversationId, isGroupChat, false);
-        }
-    }, 200));
-    
     // Click event to load messages for a selected chat
     $('.user-list-box').on('click', '.person', function () {
+        $('#message-input').val('');
+        $('#reply-to-id').val('');
         const chatType = $(this).data('chat-type');
         const chatId = $(this).data('chat-id');
         isGroupChat = chatType === 'grpchat';
@@ -1040,13 +966,6 @@ $(document).ready(function () {
         }
     
         toggleTagging(isGroupChat);
-    
-        // Fetch initial batch of messages
-        console.log('Calling fetchMessages with:', {
-            chatId,
-            isGroupChat,
-            initialLoad: true
-        });
         
         fetchMessages(chatId, isGroupChat, true);
     
@@ -1073,10 +992,6 @@ $(document).ready(function () {
             $('#grpchat-settings-overlay')
                 .find('.open-settings, .open-mute-settings, .open-member-list, .invite-members, .quit-group')
                 .data('grpchat-id', chatId);
-    
-            // Optionally log the updated attribute to verify
-            console.log("Updated overlay's open-settings button data-grpchat-id:", 
-                $('#grpchat-settings-overlay').find('.open-settings').attr('data-grpchat-id'));
         } else {
             updateMarquee('');
         }
@@ -1380,16 +1295,16 @@ $(document).ready(function () {
             success: function (response) {
                 console.log('Upload File Response:', response);
                 debouncedRefreshChatList();
-            
+    
                 if (response.status === 'success') {
                     const messagesContainer = $('.chat-conversation-box-scroll');
                     let messageHtml = '';
                     const avatarUrl = response.sender_avatar
-                        ? `${window.location.origin}/${response.sender_avatar}`
-                        : 'https://qmxk.cloud/default-avatar.png'; // Default avatar if not found
-            
+                        ? `${window.chatConfig.appUrl}/${response.sender_avatar}`
+                        : `${window.chatConfig.appUrl}/default-avatar.png`;
+    
                     if (type === 'image') {
-                        const imageUrl = `${window.location.origin}/storage/${response.image_url}`;
+                        const imageUrl = `${window.chatConfig.appUrl}/storage/${response.image_url}`;
                         const isGroupChat = response.isgroupchat ? 'true' : 'false';
                         messageHtml = `
                             <div class="message-container me">
@@ -1408,7 +1323,7 @@ $(document).ready(function () {
                             </div>
                         `;
                     } else if (type === 'video') {
-                        const videoUrl = `${window.location.origin}/storage/${response.video_url}`;
+                        const videoUrl = `${window.chatConfig.appUrl}/storage/${response.video_url}`;
                         const isGroupChat = response.isgroupchat ? 'true' : 'false';
                         messageHtml = `
                             <div class="message-container me">
@@ -1430,7 +1345,7 @@ $(document).ready(function () {
                             </div>
                         `;
                     } else if (type === 'document') {
-                        const docUrl = `${window.location.origin}/storage/${response.doc_url}`;
+                        const docUrl = `${window.chatConfig.appUrl}/storage/${response.doc_url}`;
                         const isGroupChat = response.isgroupchat ? 'true' : 'false';
                         const fileName = escapeHTML(file.name);
                         messageHtml = `
@@ -1452,21 +1367,21 @@ $(document).ready(function () {
                             </div>
                         `;
                     }
-            
+    
                     // Append the message to the chat container and scroll to the bottom
                     messagesContainer.append(messageHtml);
                     scrollToBottom();
-            
+    
                     // Update lastMessageId
                     if (response.id > lastMessageId) {
                         lastMessageId = response.id;
                     }
-            
+    
                 } else {
                     alert(response.message || '上传文件失败。');
                 }
             },
-
+    
             error: function (xhr, status, error) {
                 let errorMessage = '上传文件失败。';
     
@@ -4116,13 +4031,13 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!messagesTab) {
         console.error('Element with ID "messages-tab" not found!');
     } else {
-        console.log('Element "messages-tab" found:', messagesTab);
+        //console.log('Element "messages-tab" found:', messagesTab);
     }
 
     if (!contactsTab) {
         console.error('Element with ID "contacts-tab" not found!');
     } else {
-        console.log('Element "contacts-tab" found:', contactsTab);
+        //console.log('Element "contacts-tab" found:', contactsTab);
     }
 
     // Add Click Event Listener to **通讯录**

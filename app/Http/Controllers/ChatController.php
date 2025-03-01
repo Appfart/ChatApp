@@ -255,6 +255,199 @@ class ChatController extends Controller
             return response()->json(['error' => 'Failed to fetch messages'], 500);
         }
     }
+    
+    public function getMessagesb(Request $request, $chat_id)
+    {
+        $authUserId = Auth::id();
+        $isGroupChat = filter_var($request->query('is_group_chat'), FILTER_VALIDATE_BOOLEAN);
+        // Set a default limit if not provided
+        $limit = $request->query('limit', 20);
+        // Optionally, get a timestamp to load messages before that time
+        $before = $request->query('before');
+        
+        // Log the received parameters
+    Log::debug('Lazy load parameters', [
+        'chat_id' => $chat_id,
+        'is_group_chat' => $isGroupChat,
+        'limit' => $limit,
+        'before' => $before,
+        'auth_user_id' => $authUserId,
+    ]);
+    
+        try {
+            if ($isGroupChat) {
+                $groupChat = Grpchat::where('id', $chat_id)
+                    ->whereJsonContains('members', (string)$authUserId)
+                    ->first();
+    
+                if (!$groupChat) {
+                    Log::channel('api')->warning('Unauthorized access attempt to group chat.', [
+                        'grpchat_id' => $chat_id,
+                        'auth_user_id' => $authUserId,
+                    ]);
+                    return response()->json(['error' => 'Unauthorized'], 403);
+                }
+                
+                // Update read timestamps
+                $readTimestamps = $groupChat->read_timestamps ?? [];
+                $readTimestamps[$authUserId] = now()->toDateTimeString();
+                $groupChat->read_timestamps = $readTimestamps;
+                $groupChat->save();
+    
+                // Build the query for messages
+                $query = Grpmessage::with(['user', 'replyTo.user'])
+                    ->where('grpchat_id', $chat_id)
+                    ->where(function($query) use ($authUserId) {
+                        $query->where('status', '!=', 0)
+                              ->orWhere(function($q) use ($authUserId) {
+                                  $q->where('status', '=', 0)
+                                    ->where('user_id', '=', $authUserId);
+                              });
+                    });
+    
+                // If a "before" parameter is provided, only fetch older messages
+                if ($before) {
+                    $query->where('created_at', '<', $before);
+                }
+    
+                // Order by created_at descending to get the most recent messages first, then limit the number
+                $messages = $query->orderBy('created_at', 'desc')
+                    ->limit($limit)
+                    ->get();
+    
+                // Reverse the collection so messages appear in ascending order (oldest first)
+                $messages = $messages->reverse()->values();
+    
+                // Map messages as before
+                $messages = $messages->map(function ($message) {
+                    $replyToMessageData = null;
+                    if ($message->replyTo) {
+                        $replyToMessageData = [
+                            'id' => $message->replyTo->id,
+                            'sender_name' => $message->replyTo->user->realname ?? 'Unknown',
+                            'sender_avatar' => $message->replyTo->user->avatar ?? 'default-avatar.png',
+                            'message' => $message->replyTo->message,
+                            'created_at' => $message->replyTo->created_at->toIso8601String(),
+                        ];
+                    }
+                    return [
+                        'id' => $message->id,
+                        'grpchat_id' => $message->grpchat_id,
+                        'user_id' => $message->user_id,
+                        'sender_name' => $message->user->realname ?? 'Unknown',
+                        'sender_avatar' => $message->user->avatar ?? 'default-avatar.png',
+                        'message' => $message->status == 0 
+                            ? '信息已经撤回' 
+                            : ($message->message 
+                                ?? ($message->image_url ? '图片信息' 
+                                    : ($message->audio_url ? '音频信息' 
+                                        : ($message->doc_url ? '文档信息' 
+                                            : ($message->video_url ? '视频信息' 
+                                                : null))))),
+                        'image_url' => $message->status == 0 ? null : $message->image_url,
+                        'doc_url' => $message->status == 0 ? null : $message->doc_url,
+                        'audio_url' => $message->status == 0 ? null : $message->audio_url,
+                        'video_url' => $message->status == 0 ? null : $message->video_url,
+                        'status' => $message->status,
+                        'created_at' => $message->created_at->toIso8601String(),
+                        'reply_to_id' => $message->reply_to_id,
+                        'reply_to_message' => $replyToMessageData,
+                    ];
+                });
+            } else {
+                // Fetch normal conversation with similar lazy-loading support
+                $conversation = Conversation::where('id', $chat_id)
+                    ->where(function ($query) use ($authUserId) {
+                        $query->where('name', $authUserId)
+                              ->orWhere('target', $authUserId);
+                    })
+                    ->first();
+    
+                if (!$conversation) {
+                    Log::channel('api')->warning('Unauthorized access attempt to conversation.', [
+                        'conversation_id' => $chat_id,
+                        'auth_user_id' => $authUserId,
+                    ]);
+                    return response()->json(['error' => 'Unauthorized'], 403);
+                }
+                
+                // Update read timestamp for this user
+                $readTimestamps = $conversation->read_timestamps ?? [];
+                $readTimestamps[$authUserId] = now()->toDateTimeString();
+                $conversation->read_timestamps = $readTimestamps;
+                $conversation->save();
+    
+                $query = Message::with(['user', 'replyTo.user'])
+                    ->where('conversation_id', $chat_id)
+                    ->where(function($query) use ($authUserId) {
+                        $query->where('status', '!=', 0)
+                              ->orWhere(function($q) use ($authUserId) {
+                                  $q->where('status', '=', 0)
+                                    ->where('user_id', '=', $authUserId);
+                              });
+                    });
+    
+                if ($before) {
+                    $query->where('created_at', '<', $before);
+                }
+    
+                $messages = $query->orderBy('created_at', 'desc')
+                    ->limit($limit)
+                    ->get();
+    
+                $messages = $messages->reverse()->values();
+    
+                $messages = $messages->map(function ($message) {
+                    $replyToMessageData = null;
+                    if ($message->replyTo) {
+                        $replyToMessageData = [
+                            'id' => $message->replyTo->id,
+                            'sender_name' => $message->replyTo->user->realname ?? 'Unknown',
+                            'sender_avatar' => $message->replyTo->user->avatar ?? 'default-avatar.png',
+                            'message' => $message->replyTo->message,
+                            'created_at' => $message->replyTo->created_at->toIso8601String(),
+                        ];
+                    }
+                    return [
+                        'id' => $message->id,
+                        'conversation_id' => $message->conversation_id,
+                        'user_id' => $message->user_id,
+                        'sender_name' => $message->user->realname ?? 'Unknown',
+                        'sender_avatar' => $message->user->avatar ?? 'default-avatar.png',
+                        'message' => $message->status == 0 
+                            ? '信息已经撤回' 
+                            : ($message->message 
+                                ?? ($message->image_url ? '图片信息' 
+                                    : ($message->audio_url ? '音频信息' 
+                                        : ($message->doc_url ? '文档信息' 
+                                            : ($message->video_url ? '视频信息' 
+                                                : null))))),
+                        'image_url' => $message->status == 0 ? null : $message->image_url,
+                        'doc_url' => $message->status == 0 ? null : $message->doc_url,
+                        'audio_url' => $message->status == 0 ? null : $message->audio_url,
+                        'video_url' => $message->status == 0 ? null : $message->video_url,
+                        'created_at' => $message->created_at->toIso8601String(),
+                        'reply_to_id' => $message->reply_to_id,
+                        'reply_to_message' => $replyToMessageData,
+                        'status' => $message->status,
+                    ];
+                });
+            }
+        
+            return response()->json(['messages' => $messages]);
+        
+        } catch (\Exception $e) {
+            Log::channel('api')->error('Error fetching messages.', [
+                'chat_id' => $chat_id,
+                'auth_user_id' => $authUserId,
+                'is_group_chat' => $isGroupChat,
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString(),
+            ]);
+        
+            return response()->json(['error' => 'Failed to fetch messages'], 500);
+        }
+    }
 
     public function sendMessageFromFlutter(Request $request)
     {
@@ -915,10 +1108,16 @@ class ChatController extends Controller
 
     public function getGroupData(Request $request)
     {
-        $groupChats = Grpchat::with(['messages.user'])
-            ->select('grpchats.*', DB::raw('JSON_LENGTH(members) as members_count'));
-        
+        $groupChats = Grpchat::select('grpchats.*', DB::raw('JSON_LENGTH(members) as members_count'));
+    
         return DataTables::of($groupChats)
+            ->filter(function ($query) use ($request) {
+                if ($request->input('search.value')) {
+                    $search = $request->input('search.value');
+                    // Only search on the chatname column
+                    $query->where('chatname', 'like', "%{$search}%");
+                }
+            })
             ->addColumn('actions', function ($grpchat) {
                 return '<button class="btn btn-sm btn-primary view-details-btn" data-conversation-id="' . $grpchat->id . '" data-type="group">查看详情</button>';
             })
@@ -932,6 +1131,7 @@ class ChatController extends Controller
             ->rawColumns(['actions', 'avatar'])
             ->make(true);
     }
+
 
     public function getPersonalMessages($id)
     {

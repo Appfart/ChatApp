@@ -105,70 +105,82 @@ class RobotController extends Controller
     }
 
     public function dashboard(Request $request)
-{
-    $user = $this->getCurrentUser($request);
+    {
+        $user = $this->getCurrentUser($request);
+    
+        // Fetch last login
+        $lastLogin = \DB::table('last_online')
+            ->where('user_id', $user->id)
+            ->latest('updated_at')
+            ->value('updated_at');
+        $user->last_login = $lastLogin;
+    
+        // Fetch conversations
+        $conversations = Conversation::where(function ($query) use ($user) {
+                $query->where('name', $user->id)
+                      ->orWhere('target', $user->id);
+            })
+            ->with(['latestMessage', 'user', 'targetUser'])
+            ->get();
+    
+        // Fetch group chats
+        $grpchats = Grpchat::whereJsonContains('members', (string) $user->id)
+            ->with(['latestMessage', 'messages'])
+            ->get();
+    
+        // Get all nicknames for this user
+        $remarks = \App\Models\Remark::where('user_id', $user->id)->get()->keyBy('target_id');
+    
+        // ✅ Ensure `$targetUser` is never null
+        $targetUser = $conversations->first() ? 
+            ($conversations->first()->target == $user->id ? $conversations->first()->user : $conversations->first()->targetUser) 
+            : null;
+    
+        // Transform conversations
+        $transformedConversations = $conversations->map(function ($conversation) use ($user, $remarks) {
+            $targetId = $conversation->target === $user->id ? $conversation->name : $conversation->target;
+            $nickname = $remarks->get($targetId)->nickname ?? 'none';
+            
+            // Calculate unread count based on last read timestamp
+            $lastRead = $conversation->read_timestamps[$user->id] ?? null;
+            $unreadCount = $lastRead
+                ? $conversation->messages()->where('created_at', '>', $lastRead)->count()
+                : $conversation->messages()->count();
+            return [
+                'type'           => 'conversation',
+                'id'             => $conversation->id,
+                'data'           => $conversation,
+                'latest_message' => $conversation->latestMessage,
+                'unread_count'   => $unreadCount, // Use computed value here
+                'nickname'       => $nickname,
+            ];
+        });
+        
+        // Transform group chats
+        $transformedGrpchats = $grpchats->map(function ($grpchat) use ($user) {
+            // Calculate unread count based on last read timestamp
+            $lastRead = $grpchat->read_timestamps[$user->id] ?? null;
+            $unreadCount = $lastRead
+                ? $grpchat->messages()->where('created_at', '>', $lastRead)->count()
+                : $grpchat->messages()->count();
+        
+            return [
+                'type'           => 'grpchat',
+                'id'             => $grpchat->id,
+                'data'           => $grpchat,
+                'latest_message' => $grpchat->latestMessage,
+                'unread_count'   => $unreadCount, // Use computed value here
+            ];
+        });
 
-    // Fetch last login
-    $lastLogin = \DB::table('last_online')
-        ->where('user_id', $user->id)
-        ->latest('updated_at')
-        ->value('updated_at');
-    $user->last_login = $lastLogin;
-
-    // Fetch conversations
-    $conversations = Conversation::where(function ($query) use ($user) {
-            $query->where('name', $user->id)
-                  ->orWhere('target', $user->id);
-        })
-        ->with(['latestMessage', 'user', 'targetUser'])
-        ->get();
-
-    // Fetch group chats
-    $grpchats = Grpchat::whereJsonContains('members', (string) $user->id)
-        ->with(['latestMessage', 'messages'])
-        ->get();
-
-    // Get all nicknames for this user
-    $remarks = \App\Models\Remark::where('user_id', $user->id)->get()->keyBy('target_id');
-
-    // ✅ Ensure `$targetUser` is never null
-    $targetUser = $conversations->first() ? 
-        ($conversations->first()->target == $user->id ? $conversations->first()->user : $conversations->first()->targetUser) 
-        : null;
-
-    // Transform conversations
-    $transformedConversations = $conversations->map(function ($conversation) use ($user, $remarks) {
-        $targetId = $conversation->target === $user->id ? $conversation->name : $conversation->target;
-        $nickname = $remarks->get($targetId)->nickname ?? 'none';
-
-        return [
-            'type' => 'conversation',
-            'id' => $conversation->id,
-            'data' => $conversation,
-            'latest_message' => $conversation->latestMessage,
-            'unread_count' => $conversation->messages()->count(),
-            'nickname' => $nickname,
-        ];
-    });
-
-    // Transform group chats
-    $transformedGrpchats = $grpchats->map(function ($grpchat) {
-        return [
-            'type' => 'grpchat',
-            'id' => $grpchat->id,
-            'data' => $grpchat,
-            'latest_message' => $grpchat->latestMessage,
-            'unread_count' => $grpchat->messages()->count(),
-        ];
-    });
-
-    // Merge and sort chats
-    $sortedChats = $transformedConversations->merge($transformedGrpchats)
-        ->sortByDesc(fn ($chat) => $chat['latest_message']->created_at ?? Carbon::parse('1970-01-01'))
-        ->values();
-
-    return view('pages.app.robot.dashboard', compact('user', 'sortedChats', 'targetUser'));
-}
+    
+        // Merge and sort chats
+        $sortedChats = $transformedConversations->merge($transformedGrpchats)
+            ->sortByDesc(fn ($chat) => $chat['latest_message']->created_at ?? Carbon::parse('1970-01-01'))
+            ->values();
+    
+        return view('pages.app.robot.dashboard', compact('user', 'sortedChats', 'targetUser'));
+    }
     
     public function getSortedChats(Request $request)
     {

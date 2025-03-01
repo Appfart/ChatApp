@@ -10,7 +10,7 @@ class VersionController extends Controller
     {
         // You can store these in a config file or database
         $latestVersion = '2.0.1';
-        $downloadUrl = 'https://qmxk.cloud/qmxk.apk'; // Fixed URL
+        $downloadUrl = 'https://qmxk.cloud/msxk.apk'; // Fixed URL
 
         return response()->json([
             'version' => $latestVersion,

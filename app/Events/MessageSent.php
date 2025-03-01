@@ -37,9 +37,9 @@ class MessageSent implements ShouldBroadcast
     {
         $channel = new Channel('public-user.' . $this->recipientId);
 
-        Log::info('MessageSent broadcast channel', [
-            'channel_name' => $channel->name,
-        ]);
+        //Log::info('MessageSent broadcast channel', [
+        //    'channel_name' => $channel->name,
+        //]);
 
         return $channel;
     }
@@ -98,7 +98,7 @@ class MessageSent implements ShouldBroadcast
         ];
     
         // Log the payload being broadcasted
-        Log::info('MessageSent broadcast payload', $payload);
+        //Log::info('MessageSent broadcast payload', $payload);
     
         return $payload;
     }
